@@ -3,7 +3,7 @@
 
 This repository contains a reproducible workflow to detect splice junctions, infer unannotated (cryptic) exon usage, and quantify exon-level expression from bulk RNA-seq data using aligned BAM files and splice junction output. The pipeline is designed for high-resolution analysis of alternative splicing and exon inclusion within a defined genomic locus and is particularly suited for disease-associated splicing abnormalities.
 
-The current implementation focuses on UBA1 splicing, motivated by studies of VEXAS syndrome and myelodysplastic syndromes (MDS), where aberrant splicing and exon usage play a critical pathogenic role.
+The current implementation focuses on UBA1 splicing, motivated by studies of VEXAS syndrome, where aberrant splicing and exon usage play a critical pathogenic role.
 
 The workflow integrates:
 
@@ -16,6 +16,8 @@ The workflow integrates:
 - Exon-level FPKM normalization
 
 - Prediction of putative exons based on splice junction gaps
+
+<img width="843" height="294" alt="Image" src="https://github.com/user-attachments/assets/ccc1224b-c132-4fd8-9169-19dc7fa5ca6b" />
 
 ## Motivation
 
@@ -34,8 +36,6 @@ This pipeline addresses that gap by:
 5. Linking predicted exons to known isoforms when possible
 
 This approach enables mechanistic interpretation of splicing abnormalities beyond junction-level statistics alone.
-
-<img width="843" height="294" alt="Image" src="https://github.com/user-attachments/assets/ccc1224b-c132-4fd8-9169-19dc7fa5ca6b" />
 
 ## Input Files and Formats
 ### 1. Aligned BAM files
