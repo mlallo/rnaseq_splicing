@@ -85,6 +85,8 @@ Exon expression is reported as FPKM, normalized to:
 
 - Total reads mapped to the gene locus
 
+<img width="384" height="64" alt="Image" src="https://github.com/user-attachments/assets/3e3c2839-ca76-4950-80c4-1cc569bd9923" />
+
 ### 6. Isoform Mapping
 
 Predicted exon coordinates are compared against annotated exon boundaries with a ±3 bp tolerance to determine isoform overlap, allowing assignment of exon usage to known transcripts when possible.
