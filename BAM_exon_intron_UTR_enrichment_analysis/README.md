@@ -90,3 +90,5 @@ Exon expression is reported as FPKM, normalized to:
 ### 6. Isoform Mapping
 
 Predicted exon coordinates are compared against annotated exon boundaries with a ±3 bp tolerance to determine isoform overlap, allowing assignment of exon usage to known transcripts when possible.
+
+<img width="843" height="294" alt="Image" src="https://github.com/user-attachments/assets/ccc1224b-c132-4fd8-9169-19dc7fa5ca6b" />
