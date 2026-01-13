@@ -35,6 +35,8 @@ This pipeline addresses that gap by:
 
 This approach enables mechanistic interpretation of splicing abnormalities beyond junction-level statistics alone.
 
+<img width="843" height="294" alt="Image" src="https://github.com/user-attachments/assets/ccc1224b-c132-4fd8-9169-19dc7fa5ca6b" />
+
 ## Input Files and Formats
 ### 1. Aligned BAM files
 ### Example of STAR aligner required output:
@@ -90,5 +92,3 @@ Exon expression is reported as FPKM, normalized to:
 ### 6. Isoform Mapping
 
 Predicted exon coordinates are compared against annotated exon boundaries with a ±3 bp tolerance to determine isoform overlap, allowing assignment of exon usage to known transcripts when possible.
-
-<img width="843" height="294" alt="Image" src="https://github.com/user-attachments/assets/ccc1224b-c132-4fd8-9169-19dc7fa5ca6b" />
