@@ -13,7 +13,7 @@ OUTPUT_CSV="$OUTPUT_DIR/exons_fpkm.csv"
 echo "Extracting exon coordinates from GTF..."
 EXON_COORDS=$(awk '$3 == "exon" {print $1, $4, $5, $10}' "$GTF_FILE")
 
-#Epected file pairs
+#Expected file pairs
 declare -A FILE_PAIRS=(
     ["VEXAS_CD14"]="$BAM_DIR/VEXAS_CD14Aligned.sortedByCoord.out.bam $BAM_DIR/VEXAS_CD14SJ.out.tab"
     ["VEXAS_CD3"]="$BAM_DIR/VEXAS_CD3Aligned.sortedByCoord.out.bam $BAM_DIR/VEXAS_CD3SJ.out.tab"
